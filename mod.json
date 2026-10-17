@@ -1,0 +1,19 @@
+{
+	"geode": "5.0.0",
+	"gd": {
+		"win": "2.2081"
+	},
+	"id": "user.noendscreen",
+	"name": "No End Screen",
+	"version": "v1.0.0",
+	"developer": "user",
+	"description": "Hides the Level Complete window and instantly replays or exits.",
+	"settings": {
+		"action": {
+			"type": "string",
+			"name": "After completing a level",
+			"default": "replay",
+			"one-of": ["replay", "exit"]
+		}
+	}
+}
