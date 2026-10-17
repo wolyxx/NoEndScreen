@@ -1,5 +1,5 @@
 {
-	"geode": "5.0.0",
+	"geode": "5.11.2",
 	"gd": {
 		"win": "2.2081"
 	},
@@ -7,13 +7,5 @@
 	"name": "No End Screen",
 	"version": "v1.0.0",
 	"developer": "user",
-	"description": "Hides the Level Complete window and instantly replays or exits.",
-	"settings": {
-		"action": {
-			"type": "string",
-			"name": "After completing a level",
-			"default": "replay",
-			"one-of": ["replay", "exit"]
-		}
-	}
+	"description": "Hides the Level Complete window. Press Esc to leave the level."
 }
